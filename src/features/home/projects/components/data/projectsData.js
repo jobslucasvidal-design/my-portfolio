@@ -37,7 +37,7 @@
          'Simulei ingestão contínua de transações financeiras integradas ao SQLite',
        ],
        techs: [
-         'FASTAPI(Python)',
+         'FastAPI (Python)',
          'Streamlit',
          'Scikit-Learn',
          'SQLite',
