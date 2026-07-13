@@ -1,5 +1,6 @@
  import Img1 from '../../../../../assets/images/projects/img1.jpg';
- import ImgNexus from '../../../../../assets/images/projects/nexusbjj.png'
+ import ImgNexus from '../../../../../assets/images/projects/nexusbjj.jpg'
+ import ImgDetctor from '../../../../../assets/images/projects/detector.jpg'
 
 
  export const projects = [
@@ -27,24 +28,22 @@
      },
      {
        id: 'projeto-2',
-       img: Img1,
-       eyebrow: 'France - Global - 2024-2026',
-       title: 'Projeto em andamento',
+       img: ImgDetctor,
+       eyebrow: 'São Roque - São Paulo - 2026',
+       title: 'Detector de Fraudes em Tempo Real com IA',
        bullets: [
-         'Reestruturei layout com foco em UX/UI',
-         'Melhorei navegação e consistência visual',
-         'Interface moderna baseada no Bikecraft',
+         'Desenvolvi API com FastAPI integrando modelo de IA para detecção de fraudes',
+         'Criei dashboard em tempo real com Streamlit para monitoramento de métricas',
+         'Simulei ingestão contínua de transações financeiras integradas ao SQLite',
        ],
        techs: [
-         'HTML5',
-         'CSS3',
-         'JavaScript',
-         'Figma',
-         'UX/UI',
-         'Responsivo',
+         'FASTAPI(Python)',
+         'Streamlit',
+         'Scikit-Learn',
+         'SQLite',
        ],
-       deploy: '#',
-       github: '#',
+       deploy: 'https://github.com/lucasvidaldev/detector-fraudes-ia',
+       github: 'https://github.com/lucasvidaldev/detector-fraudes-ia',
      },
      {
        id: 'projeto-3',

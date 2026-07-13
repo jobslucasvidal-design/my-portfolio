@@ -28,9 +28,8 @@
   transform: none; /* opcional: remove rotação */
   transition: transform 0.3s ease ;
 }
-
-.projectImage:hover {
-  transform: scale(1.05);
+.projectImage img:hover{
+  transform: scale(1.01);
 }
 
 /* CONTEÚDO (lado direito) */
