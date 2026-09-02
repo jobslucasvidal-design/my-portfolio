@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-
   color: #fff;
 }
 
@@ -20,19 +19,10 @@
 
 /* BOTTOM */
 
-.contactBottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-
-  gap: 20px;
-}
 
 /* LINKS */
 
-.contactLeft,
-.contactRight {
+.contactInfo {
   display: flex;
   gap: 24px;
 }
@@ -67,12 +57,7 @@
     font-size: 42px;
   }
 
-  .contactBottom {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .contactRight {
+  .contactInfo {
     flex-direction: column;
     gap: 12px;
   }

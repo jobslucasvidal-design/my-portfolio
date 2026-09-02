@@ -38,7 +38,7 @@ export default function Hero() {
           </a>
           <span>São Roque - SP, Brasil</span>
         </div>
-        <span className={styles.heroFooterDev}>FrontEnd Developer</span>
+        <span className={styles.heroFooterDev}>FullStack Developer</span>
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ import HoracioLogo from '../../../../assets/icons/hml.svg';
 
 export const education = [
   {
-    name: 'Universidade Infnet',
+    name: 'Universidade Instituto Infnet',
     text: 'Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no Infnet, onde iniciei minha formação acadêmica na área de tecnologia. A graduação tem ampliado minha base teórica e prática, permitindo uma compreensão mais estruturada do desenvolvimento de software e preparando-me para evoluir como desenvolvedor fullstack.',
     icon: InfnetLogo,
     variant: 'educationPrimary',

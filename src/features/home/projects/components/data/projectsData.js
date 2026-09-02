@@ -1,6 +1,8 @@
  import Img1 from '../../../../../assets/images/projects/img1.jpg';
- import ImgNexus from '../../../../../assets/images/projects/nexusbjj.jpg'
- import ImgDetctor from '../../../../../assets/images/projects/detector.jpg'
+ import ImgNexus from '../../../../../assets/images/projects/img_nexusbjj.jpg'
+ import ImgDetector from '../../../../../assets/images/projects/detector.jpg'
+ import ImgBikestar from '../../../../../assets/images/projects/img_bikestar.jpg'
+ import ImgSaintrock from '../../../../../assets/images/projects/img_saintrock.jpg'
 
 
  export const projects = [
@@ -27,8 +29,8 @@
        github: 'https://github.com/jobslucasvidal-design/nexusbjjacademy',
      },
      {
-       id: 'projeto-2',
-       img: ImgDetctor,
+       id: 'detector',
+       img: ImgDetector,
        eyebrow: 'São Roque - São Paulo - 2026',
        title: 'Detector de Fraudes em Tempo Real com IA',
        bullets: [
@@ -46,12 +48,12 @@
        github: 'https://github.com/lucasvidaldev/detector-fraudes-ia',
      },
      {
-       id: 'projeto-3',
-       img: Img1,
-       eyebrow: 'France - Global - 2024-2026',
-       title: 'Projeto em andamento',
+       id: 'bikestar',
+       img: ImgBikestar,
+       eyebrow: 'São Roque - São Paulo - 2026',
+       title: 'Bikestar',
        bullets: [
-         'Reestruturei layout com foco em UX/UI',
+         'Reestruturei layout originalmente da Origamid com foco em explorar meus conhecimentos',
          'Melhorei navegação e consistência visual',
          'Interface moderna baseada no Bikecraft',
        ],
@@ -63,18 +65,18 @@
          'UX/UI',
          'Responsivo',
        ],
-       deploy: '#',
+       deploy: 'https://mybikestar.netlify.app/',
        github: '#',
      },
      {
-       id: 'projeto-4',
-       img: Img1,
-       eyebrow: 'France - Global - 2024-2026',
-       title: 'Projeto em andamento',
+       id: 'saintrock',
+       img: ImgSaintrock,
+       eyebrow: 'São Roque - São Paulo - 2026',
+       title: 'Saintrock',
        bullets: [
-         'Reestruturei layout com foco em UX/UI',
-         'Melhorei navegação e consistência visual',
-         'Interface moderna baseada no Bikecraft',
+         'Projeto criado do zero, inspirado em sites como Artwalk',
+         'Buscando aplicar uma consistencia visual mais refinada',
+         'Aplicando tecnicas de posicionamento das sections',
        ],
        techs: [
          'HTML5',

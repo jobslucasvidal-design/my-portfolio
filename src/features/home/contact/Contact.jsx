@@ -3,7 +3,7 @@ import Tag from '../../../components/tag/Tag.jsx';
 
 export default function Contact() {
   return (
-    <footer className={styles.contactBG} id='contato'>
+    <footer className={styles.contactBG} id="contato">
       <div className="container">
         <div className={`${styles.contactSection} reveal`}>
           {/* HEADER */}
@@ -15,16 +15,17 @@ export default function Contact() {
           </div>
           {/* BOTTOM */}
           <div className={styles.contactBottom}>
-            <nav className={styles.contactLeft}>
-              <a href="#">cookies</a>
-              <a href="#">privacidade</a>
-              <a href="#">jurídico</a>
-            </nav>
-            <nav className={styles.contactRight}>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <nav className={styles.contactInfo}>
+              <a
+                href="https://www.linkedin.com/in/lucasgoncalves-dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 LINKEDIN
               </a>
-              <a href="mailto:email@gmail.com">email@gmail.com</a>
+              <a href="mailto:jobs.lucasvidal@gmail.com">
+                E-MAIL
+              </a>
             </nav>
           </div>
         </div>
