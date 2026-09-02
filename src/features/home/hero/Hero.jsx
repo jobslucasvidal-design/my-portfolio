@@ -4,7 +4,7 @@ import styles from './Hero.module.css';
 
 export default function Hero() {
   const trackRef = useRef(null);
-  const names = Array(4).fill('Lucas Gonçalves');
+  const names = Array(4).fill('Lucas Vidal');
 
   useEffect(() => {
     const el = trackRef.current;
@@ -33,7 +33,7 @@ export default function Hero() {
 
       <div className={styles.heroFooter}>
         <div>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.heroFooterLink}>
+          <a href="https://www.linkedin.com/in/lucasgoncalves-dev/" target="_blank" rel="noopener noreferrer" className={styles.heroFooterLink}>
             Linkedin
           </a>
           <span>São Roque - SP, Brasil</span>

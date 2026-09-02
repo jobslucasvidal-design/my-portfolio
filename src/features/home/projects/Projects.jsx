@@ -20,8 +20,7 @@ export default function Projects() {
               line="Eis o que eu realmente faço o dia todo"
               highlight="o que eu realmente"
             />
-            <Paragraph text="Hoje, atuo principalmente no front-end, criando interfaces modernas e experiências digitais com foco em performance e design." />
-            <Paragraph text="Enquanto isso, sigo evoluindo para o fullstack, buscando entender e desenvolver também toda a lógica por trás das aplicações." />
+            <Paragraph text="Atualmente, tenho maior experiência no desenvolvimento front-end, criando interfaces modernas, responsivas e funcionais com foco em usabilidade, performance e qualidade de código. Ao mesmo tempo, venho expandindo meus conhecimentos para o desenvolvimento back-end e construção de aplicações full stack." />
             <Paragraph text="Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) pelo Infnet, reforçando minha base técnica e ampliando minha visão como desenvolvedor." />
           </div>
           <div className={style.projectIntro}>

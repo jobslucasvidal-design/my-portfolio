@@ -33,8 +33,8 @@ export default function About() {
                 className={styles.aboutSectionMedia}
               />
 
-              <Paragraph text="Sou um desenvolvedor front-end apaixonado por criar experiências digitais incríveis. Com uma base sólida em HTML, CSS e JavaScript, estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades para entregar projetos de alta qualidade." />
-              <Paragraph text="Minha jornada na programação começou há alguns anos, e desde então, tenho me dedicado a explorar o mundo do desenvolvimento web. Adoro enfrentar desafios técnicos e encontrar soluções criativas para problemas complexos." />
+              <Paragraph text="Sou desenvolvedor focado na construção de aplicações web, com experiência em HTML, CSS, JavaScript e React. Atualmente, também venho aprofundando meus conhecimentos em Python, SQL e desenvolvimento full stack. Gosto de transformar ideias em soluções funcionais, bem estruturadas e estou sempre buscando evoluir tecnicamente por meio de projetos práticos e novos desafios." />
+              <Paragraph text="Minha jornada na programação começou há cerca de um ano e meio e desde então, venho me dedicando ao desenvolvimento de aplicações web e ao aprimoramento constante das minhas habilidades. Gosto de enfrentar desafios técnicos, entender problemas e buscar soluções eficientes, sempre utilizando projetos práticos para transformar conhecimento em experiência." />
             </div>
 
             {/* RIGHT */}

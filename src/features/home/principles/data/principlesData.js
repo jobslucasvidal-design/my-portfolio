@@ -2,21 +2,21 @@
     {
       id: '01',
       principleTitle: 'Menos é mais',
-      principleText: 'Elimine o desnecessário até que reste apenas o essencial. Cada elemento conquista seu lugar por sua função, não por decoração.',
+      principleText: 'Simplicidade também é uma escolha técnica: cada elemento deve ter um propósito e contribuir para a experiência.',
     },
     {
       id: '02',
       principleTitle: 'Priorize os usuários',
-      principleText: 'Pessoas reais com problemas reais: é aí que começa toda decisão. Empatia não é uma fase, é o alicerce.',
+      principleText: 'Tudo começa com pessoas e problemas reais. Entender suas necessidades é o ponto de partida para criar soluções úteis, simples e que realmente façam sentido.',
     },
     {
       id: '03',
       principleTitle: 'Trabalhe de forma mais inteligente, não mais árdua.',
-      principleText: 'Sistemas escaláveis, padrões reutilizáveis e automação onde é necessário. Eficiência não é preguiça.',
+      principleText: 'Sistemas escaláveis, padrões reutilizáveis e automação quando fazem sentido. Para mim, eficiência é encontrar formas inteligentes de reduzir trabalho repetitivo sem abrir mão da qualidade.',
     },
     {
       id: '04',
       principleTitle: 'Boa comunicação',
-      principleText: 'O melhor trabalho não significa nada se você não consegue explicar o porquê. Clareza na conversa é tão importante quanto na tela.',
+      principleText: 'Não basta criar uma boa solução; é preciso saber explicar por que ela funciona. Clareza na comunicação é tão importante quanto clareza na tela.',
     },
   ];

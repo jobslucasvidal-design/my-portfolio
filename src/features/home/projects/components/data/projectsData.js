@@ -1,4 +1,3 @@
- import Img1 from '../../../../../assets/images/projects/img1.jpg';
  import ImgNexus from '../../../../../assets/images/projects/img_nexusbjj.jpg'
  import ImgDetector from '../../../../../assets/images/projects/detector.jpg'
  import ImgBikestar from '../../../../../assets/images/projects/img_bikestar.jpg'
@@ -55,7 +54,7 @@
        bullets: [
          'Reestruturei layout originalmente da Origamid com foco em explorar meus conhecimentos',
          'Melhorei navegação e consistência visual',
-         'Interface moderna baseada no Bikecraft',
+         'Interface moderna baseada no Bikecraft utilizando apenas o Vanilla JS',
        ],
        techs: [
          'HTML5',
@@ -65,8 +64,8 @@
          'UX/UI',
          'Responsivo',
        ],
-       deploy: 'https://mybikestar.netlify.app/',
-       github: '#',
+       deploy: 'https://newbikestar.netlify.app/',
+       github: 'https://github.com/lucasvidaldev/bikestar',
      },
      {
        id: 'saintrock',
@@ -79,14 +78,15 @@
          'Aplicando tecnicas de posicionamento das sections',
        ],
        techs: [
-         'HTML5',
-         'CSS3',
+         'React',
          'JavaScript',
+         'HTML5',
+         'CSS Modules',
+         'Responsivo Design',
          'Figma',
-         'UX/UI',
-         'Responsivo',
+         'UX/UI Design',
        ],
-       deploy: '#',
-       github: '#',
+       deploy: 'https://saintrock.netlify.app/',
+       github: 'https://github.com/lucasvidaldev/saintrock-sneakers',
      }
 ];

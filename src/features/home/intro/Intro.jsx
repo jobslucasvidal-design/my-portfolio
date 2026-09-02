@@ -14,7 +14,7 @@ export default function Intro() {
             highlight="soluções"
           />
           <div className={style.introText}>
-            <Paragraph text="Gosto de transformar complexidade em sistemas claros e funcionais, que ajudam tanto usuários quanto equipes a entender o que realmente importa." />
+            <Paragraph text="Gosto de transformar problemas complexos em soluções simples, funcionais e bem estruturadas, sempre buscando criar aplicações que ofereçam uma boa experiência para os usuários e facilitem sua manutenção e evolução." />
             <Paragraph text="Meu foco é criar processos e ferramentas que funcionem na prática, entregando valor de forma consistente e confiável, sem complicações desnecessárias." />
           </div>
         </div>
