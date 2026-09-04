@@ -15,7 +15,7 @@
 
 <p align="center">
   <b>
-    Portfólio desenvolvido em React para apresentar meus projetos e habilidades em front-end, 
+    Portfólio desenvolvido em React para apresentar meus projetos e habilidades em React, 
     com foco em interfaces modernas, minimalistas e na melhor experiência do usuário (UX).
   </b>
 </p>
