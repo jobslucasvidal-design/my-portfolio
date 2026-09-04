@@ -1,4 +1,4 @@
-<h1 align="center">Portfólio Front-end 💻</h1>
+<h1 align="center">Portfólio Pessoal — React💻</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-online-green" />
@@ -69,3 +69,6 @@
 
 ```bash
 git clone https://github.com/lucasvidaldev/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
