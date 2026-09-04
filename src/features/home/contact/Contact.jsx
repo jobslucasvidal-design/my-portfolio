@@ -1,5 +1,7 @@
-import styles from './Contact.module.css';
+// Import de Components Globais
 import Tag from '../../../components/tag/Tag.jsx';
+// Import de CSS do Contact
+import styles from './Contact.module.css';
 
 export default function Contact() {
   return (
@@ -21,10 +23,15 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LINKEDIN
+                linkedin
               </a>
-              <a href="mailto:jobs.lucasvidal@gmail.com">
-                E-MAIL
+              <a href="mailto:jobs.lucasvidal@gmail.com">email</a>
+              <a
+                href="https://github.com/lucasvidaldev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github
               </a>
             </nav>
           </div>

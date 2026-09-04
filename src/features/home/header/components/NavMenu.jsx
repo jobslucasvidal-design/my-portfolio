@@ -1,3 +1,4 @@
+// Import dos CSS do NaveMenu
 import styles from './NavMenu.module.css';
 
 export default function NavMenu({ isMobile = false, onClickLink }) {

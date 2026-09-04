@@ -1,7 +1,9 @@
+// Import dos Components Globais
 import Title from '../../../components/title/Title';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
-import style from './Intro.module.css';
 import Tag from '../../../components/tag/Tag.jsx';
+// Import do CSS de Intro
+import style from './Intro.module.css';
 
 export default function Intro() {
   return (

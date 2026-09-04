@@ -1,10 +1,12 @@
+// Import do CSS do About
 import styles from './About.module.css';
+// Import do Data do About
 import { aboutTags } from './data/aboutData.js';
-
+// Import dos Componentes Globais
 import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
-
+// Import da Imagem utilizada no Background
 import SuaImagem from '../../../assets/images/background/foto-about.jpg';
 
 function InfoItem({ label, text }) {

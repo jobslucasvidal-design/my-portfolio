@@ -1,9 +1,10 @@
-import styles from './Education.module.css';
-import { education } from './data/educationData.js';
-
+// Import dos Components Globais
 import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
+// Import do CSS de Education e Data Education
+import styles from './Education.module.css';
+import { education } from './data/educationData.js';
 
 export default function Education() {
   return (
@@ -20,14 +21,14 @@ export default function Education() {
                 key={item.id}
                 className={`${styles.educationCard} ${styles[item.variant]} reveal`}
               >
-                {/* 👇 ÍCONE */}
+                {/* ÍCONE */}
                 <img
                   src={item.icon}
                   alt={item.name}
                   className={styles.educationCardIcon}
                 />
 
-                {/* 👇 CONTEÚDO */}
+                {/* CONTEÚDO */}
                 <div className={styles.educationCardContent}>
                   <h2>{item.name}</h2>
                   <p>{item.text}</p>

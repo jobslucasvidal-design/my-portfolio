@@ -1,5 +1,8 @@
+// Import do useEffect e UseRef do React
 import { useEffect, useRef } from 'react';
+// Import da biblioteca GSAP que está no package.JSON
 import { gsap } from 'gsap';
+// Import do CSS da Hero
 import styles from './Hero.module.css';
 
 export default function Hero() {
@@ -8,7 +11,7 @@ export default function Hero() {
 
   useEffect(() => {
     const el = trackRef.current;
-
+    // animação com gsap
     const animation = gsap.to(el, {
       xPercent: -50,
       duration: 65,
@@ -17,12 +20,11 @@ export default function Hero() {
     });
 
     return () => {
-      animation.kill(); // 🔥 limpa animação
+      animation.kill(); // limpa animação
     };
   }, []);
-
   return (
-    <section className={styles.heroBg} id='home'>
+    <section className={styles.heroBg} id="home">
       <h1 className={styles.heroTitle}>
         <span className={styles.heroTrack} ref={trackRef}>
           {names.map((name, i) => (
@@ -33,7 +35,12 @@ export default function Hero() {
 
       <div className={styles.heroFooter}>
         <div>
-          <a href="https://www.linkedin.com/in/lucasgoncalves-dev/" target="_blank" rel="noopener noreferrer" className={styles.heroFooterLink}>
+          <a
+            href="https://www.linkedin.com/in/lucasgoncalves-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.heroFooterLink}
+          >
             Linkedin
           </a>
           <span>São Roque - SP, Brasil</span>

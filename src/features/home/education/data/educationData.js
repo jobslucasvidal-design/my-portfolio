@@ -1,3 +1,4 @@
+// Import das Imgs Logos de Education
 import InfnetLogo from '../../../../assets/icons/infnet.svg';
 import OrigamidLogo from '../../../../assets/icons/origamid.svg';
 import HoracioLogo from '../../../../assets/icons/hml.svg';

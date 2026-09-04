@@ -1,12 +1,14 @@
+// Import dos Componentes Globais
 import Title from '../../../components/title/Title.jsx';
 import Subtitle from '../../../components/subtitle/Subtitle.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
-
+// Import do CSS Module de Projects
 import style from './Projects.module.css';
-
+// Import dos Components de Projects
 import ProjectsCards from './components/ProjectsCard.jsx';
 import ProjectNav from './components/ProjectsNav.jsx';
+// Import do Data de Projects
 import { projects } from './components/data/projectsData.js';
 
 export default function Projects() {

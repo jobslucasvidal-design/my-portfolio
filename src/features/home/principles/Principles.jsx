@@ -1,8 +1,10 @@
-import styles from './Principles.module.css';
+// Import dos Components Globais
 import Title from '../../../components/title/Title.jsx';
 import Paragraph from '../../../components/paragraph/Paragraph.jsx';
 import Tag from '../../../components/tag/Tag.jsx';
-
+// Import dos CSS de Principles
+import styles from './Principles.module.css';
+// Import do Data de Principles
 import { principlesData } from './data/principlesData.js';
 
 export default function Principles() {
@@ -18,12 +20,15 @@ export default function Principles() {
           <div className={styles.principlesGrid}>
             {principlesData.map((item) => (
               <div key={item.id} className={`${styles.principlesCard} reveal`}>
-                <span className={styles.principlesNumber} aria-hidden="true" role='presentation'>{item.id}</span>
-
+                <span
+                  className={styles.principlesNumber}
+                  aria-hidden="true"
+                  role="presentation"
+                >
+                  {item.id}
+                </span>
                 <h3>{item.principleTitle}</h3>
-
                 <p>{item.principleText}</p>
-
                 <span className={styles.detailsLine}></span>
               </div>
             ))}
