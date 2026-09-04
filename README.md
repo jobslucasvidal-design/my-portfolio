@@ -68,4 +68,4 @@
 <h3>Clonando o projeto</h3>
 
 ```bash
-git clone https://github.com/jobslucasvidal-design/my-portfolio.git
+git clone https://github.com/lucasvidaldev/my-portfolio.git
